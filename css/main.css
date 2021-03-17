@@ -21,7 +21,8 @@
     left:0;
     width: 100%;
     height: 100%;
-    background:linear-gradient(to right,#c2c9d3 5%,#eeeeee 95%);
+    /* background:linear-gradient(to right,#c2c9d3 5%,#eeeeee 95%); */
+    background-color: transparent;
     opacity: 0.7;
     z-index: 3;
 }
@@ -229,12 +230,12 @@
     .container {
       max-width: 900px;
     }
-    .header_logo {
+    /* .header_logo {
         font-size: 30px;
     }
     .header_link {
         font-size: 22px;
-    }
+    } */
     .wr-home p {
         left: 42%;
         top: -10px;
@@ -257,11 +258,11 @@
     .wr-intro img {
         width: 50px;
     }
-    .wr-intro h2 {
+    /* .wr-intro h2 {
         font-size: 35px;
-    }
+    } */
     .wr-intro p {
-        font-size: 20px;
+        /* font-size: 20px; */
         padding: 5px 50px;
     }
   }
