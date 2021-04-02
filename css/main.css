@@ -225,9 +225,7 @@
   }
   
   @media (max-width:1400px) {
-    .container {
-      max-width: 900px;
-    }
+    
     /* .header__logo {
         font-size: 30px;
     }
