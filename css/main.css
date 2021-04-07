@@ -153,7 +153,6 @@
     display: flex;
     align-items: flex-end;
     flex-grow: 1;
-    justify-content: flex-end;
     padding-top: 200px;
   }
   .wr-home p {
@@ -161,7 +160,7 @@
     font-size: 72px;
     text-transform: uppercase;
     position: relative;
-    left: 43%;
+    left: 152%;
     top: 20px;
   }
   .wr-home::after {
@@ -172,14 +171,14 @@
     height: 4px;
     position: relative;
     bottom: 222px;
-    right: 4%;
+    right: -41%;
   }
   .wr-home h3 {
     font-size: 18px;
     max-width: 550px;
     text-align: right;
     position: relative;
-    left: 25%;
+    left: 135%;
     letter-spacing: -0.1px;
     word-spacing: 0.5px;
     line-height: 1.9;
@@ -199,7 +198,7 @@
     background-color: transparent;
     position: relative;
     top:13px;
-    left:85%;
+    left: 195%;
   }
   /* section2 */
   .wr-intro {
@@ -227,60 +226,112 @@
     .container {
         max-width: 900px;
     }
-    
-    /* .header__logo {
-        font-size: 30px;
-    }
-    .header__link {
-        font-size: 22px;
-    } */
     .wr-home p {
-        left: 42%;
-        top: -145px;
+        left: 125%;
+        top: -35px;
     }
     .wr-home::after {
         width: 15%;
-        bottom: 410px;
-        right: 5%;
+        bottom: 296px;
+        right: -26%;
     }
     .wr-home h3 {
-        left: 25%;
-        top: -180px;
+        left: 107%;
+        top: -68px;
         font-size: 18px;
     }
     .btn {
-        left: 85%;
-        top: -180px;
-        /* font-size: 18px; */
+        left: 167%;
+        top: -62px;
     }
     .wr-intro img {
         width: 50px;
     }
   }
-  @media (max-width:1100px) {
+  @media (max-width:1300px) and (max-height:600px) {
     .wr-home p {
-        left: 42%;
+        left: 118%;
+        top: -156px; 
+    }
+    .wr-home::after {
+        width: 15%;
+        bottom: 413px;
+        right: -26%;
+    }
+    .wr-home h3 {
+        left: 99%;
+        top: -165px;
+        font-size: 18px;
+    }
+    .btn {
+        left: 159%;
+        top: -175px;
+    }
+  }
+  @media (max-width:1150px) {
+    .wr-home p {
+        left: 100%;
         top: 0px;
     }
     .wr-home::after {
         width: 15%;
         bottom: 255px;
-        right: 5%;
+        right: -23%;
     }
     .wr-home h3 {
-        left: 25%;
+        left: 81%;
         top: 0px;
         font-size: 18px;
     }
     .btn {
-        left: 85%;
+        left: 141%;
         top: 0px;
         /* font-size: 18px; */
     }
   }
-  @media (max-width:992px) {
+  @media (max-width:1100px) {
     .container {
       max-width: 750px;
+    }
+    .wr-home p {
+        left: 85%;
+        top: 0px;
+    }
+    .wr-home::after {
+        width: 15%;
+        bottom: 255px;
+        right: -20%;
+    }
+    .wr-home h3 {
+        left: 67%;
+        top: 0px;
+        font-size: 18px;
+    }
+    .btn {
+        left: 127%;
+        top: 0px;
+        /* font-size: 18px; */
+    }
+  }
+  @media (max-width:930px) {
+    .wr-home p {
+        left: 70%;
+        top: 0px;
+    }
+    .wr-home::after {
+        width: 15%;
+        bottom: 255px;
+        right: -13%;
+    }
+    .wr-home h3 {
+        left: 52%;
+        top: 0px;
+        font-size: 18px;
+    }
+    .btn {
+        left: 113%;
+        top: 0px;
+        /* font-size: 18px; */
     }
   }
   @media (max-width:865px) {
@@ -291,23 +342,23 @@
         padding: 5px 0px 0;
     }
   }
-  @media (max-width:815px) {
+  @media (max-width:850px) {
     .wr-home p {
         font-size: 60px;
-        left: 28%;
+        left: 92%;
     }
     .wr-home::after {
         width: 15%;
         bottom: 400px;
-        right: 34px;
+        right: -194px;
     }
     .wr-home h3 {
         max-width: 376px;
         font-size: 22px;
-        left: 27%;
+        left: 93%;
     }
     .btn {
-        left: 72%;
+        left: 137%;
         width: 56%;
     }
     .wr-intro p {
@@ -361,6 +412,21 @@
         padding: 0 20px;
     }
   }
+  @media (max-width:777px) {
+    .wr-home p {
+        left: 80%;
+    }
+    .wr-home::after {
+        bottom: 399px;
+        right: -150px;
+    }
+    .wr-home h3{
+        left: 80%;
+    }
+    .btn {
+        left: 123%;
+    }
+  }
   @media (max-width:740px)  and (orientation : landscape) {
     .wr-home p {
         top: -135px;
@@ -372,10 +438,56 @@
         top: -160px;
     }
   }
+  @media (max-width:725px) {
+    .wr-home p {
+        left: 65%;
+    }
+    .wr-home::after {
+        bottom: 399px;
+        right: -97px;
+    }
+    .wr-home h3{
+        left: 65%;
+    }
+    .btn {
+        left: 110%;
+    }
+  }
+  
   @media (max-width:700px) {
     .container {
       max-width: 550px;
       padding: 0 30px;
+    }
+  }
+  @media (max-width:680px) {
+    .wr-home p {
+        left: 48%;
+    }
+    .wr-home::after {
+        bottom: 399px;
+        right: -35px;
+    }
+    .wr-home h3{
+        left: 48%;
+    }
+    .btn {
+        left: 92%;
+    }
+  }
+  @media (max-width:615px) {
+    .wr-home p {
+        left: 35%;
+    }
+    .wr-home::after {
+        bottom: 399px;
+        right: 15px;
+    }
+    .wr-home h3{
+        left: 35%;
+    }
+    .btn {
+        left: 80%;
     }
   }
   @media (max-width:580px)  and (orientation : landscape) {
@@ -412,6 +524,21 @@
     .wr-intro p {
         font-size: 15px;
         padding: 0;
+    }
+  }
+  @media (max-width:560px) {
+    .wr-home p {
+        left: 28%;
+    }
+    .wr-home::after {
+        bottom: 399px;
+        right: 25px;
+    }
+    .wr-home h3{
+        left: 28%;
+    }
+    .btn {
+        left: 73%;
     }
   }
   @media (max-width:520px) {
